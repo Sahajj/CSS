@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#Div {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+
+}
+
+/* q 2 */
+
+
+#navbar{
+    background-color: #0f1111;
+    height: 60px;
+}
+
+#logo {
+    font-size: 25px;
+    color: #f08804;
+    padding-right: 200px;
+    text-decoration: none;
+}
+.nav_link{
+    margin-right: 200px;
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+#Search_Button_Navbar{
+    background-color: #f08804;
+    color:white;
+}

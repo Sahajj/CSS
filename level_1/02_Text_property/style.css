@@ -2,9 +2,6 @@ p {
     text-align: center;
     
 }
-
-
-
 a {
     text-decoration: none;
 }
@@ -26,4 +23,12 @@ a {
 
 #h4{
     font-weight: 900;
+}
+
+#one {
+    font-family: monospace;
+}
+
+#two {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
