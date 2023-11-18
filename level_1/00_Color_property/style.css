@@ -1,0 +1,36 @@
+/*
+
+Universal Selector
+
+*/ 
+
+*{
+    color:palegreen;
+} 
+
+/* Element selector */
+
+p{
+   color: red; 
+}
+
+/* Id selector  --> unique name
+    Single id is assigned to single element
+    Not more than one element.
+*/
+
+#headingOne {
+    background-color: black;
+}
+
+
+/* Color Selector --> Multiple elements can be assigned a class
+    used when we need to style more than one elements.
+*/
+
+.myClass {
+    color: blue;
+    background-color: red;
+}
+
+
