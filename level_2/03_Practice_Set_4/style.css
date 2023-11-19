@@ -1,0 +1,55 @@
+#navbar{
+    background-color: #0f1111;
+    height: 60px;
+}
+
+#logo {
+    font-size: 25px;
+    color: #f08804;
+    padding-right: 200px;
+    text-decoration: none;
+}
+.nav_link{
+    margin-right: 200px;
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+#Search_Button_Navbar{
+    background-color: #f08804;
+    color:white;
+}
+
+.contenet_box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+
+#box1{
+    background-color: rgba(0, 0, 255, 0.5)
+}
+
+#box2{
+    background-color: rgba(0, 0, 255, 0.7)
+    
+}
+
+#box3{
+    background-color: rgba(0, 0, 255, 1)
+}
+
+footer{
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
+
+#content {
+    height: 660px;
+}

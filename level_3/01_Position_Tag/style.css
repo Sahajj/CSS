@@ -1,0 +1,46 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black ;
+    display: inline-block;
+}
+
+#box1 {
+    position: static;
+
+}
+
+#box2 {
+    position: relative;
+    top: 20px;
+    left: 10px;
+
+}
+
+#box3{
+
+    position: sticky; 
+    /* position will stick when we see it and after that it will stick to the screen for scrolling */
+    
+    
+    /* position: absolute; */
+    /* parent --> body tag */
+    /* closest positioned(non-static) ancestors */
+    top: 500px;
+    left: 20px;
+    
+}
+
+#box4 {
+   /* For nav bar  */
+
+    position: fixed;
+    /* position relative to browser. (removed from flow)  */
+    top: 0;
+
+    /* for footer we can do this :) */
+    /* bottom: 0; */
+    /* width: 100vw; */
+    /*  this is used to fix the places of the headers and footers and  in the Html document */
+}
