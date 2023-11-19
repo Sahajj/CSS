@@ -1,0 +1,36 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black ;
+    display: inline-block;
+}
+
+#box1 {
+    position: static;
+
+}
+
+#box2 {
+    position: relative;
+    top: 20px;
+    left: 10px;
+
+}
+
+#box3{
+    position: absolute;
+    /* parent --> body tag */
+    /* closest positioned(non-static) ancestors */
+    top: 10px;
+    left: 20px;
+    
+}
+
+#box4 {
+    position: fixed;
+    /* position relative to browser. (removed from flow)  */
+    bottom: 0;
+    width: 100vw;
+    /*  this is used to fix the places of the headers and footers and  in the Html document */
+}
