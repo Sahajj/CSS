@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    /* border-box --> This helps us keep the border inside it's height 
+    and width and not adding extra border px so that it's easy for us to 
+    calculate the size */
+   
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("./images/amazon_logo.png");
+    height: 50px;
+    background-size: cover;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* box 2 of nav bar  */
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 18px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 10px;
+    
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
