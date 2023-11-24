@@ -1,0 +1,26 @@
+#outer {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    background-color: white;
+    top: 300px;
+    left: 300px;
+    border-radius: 50%;
+    border: 18px solid blue;
+    border-top: 18px solid black;
+    animation: loader 1s ease-in-out 1s infinite normal;
+}
+
+
+
+
+
+@keyframes loader {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    
+}
